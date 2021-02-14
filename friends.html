@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcom to KOKOA Talk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar_column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar_column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-l"></i>
+        <i class="fas fa-bolt fa-l"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="fas fa-music"></i></span>
+        <span><i class="fas fa-cog"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+    <main class="friends-screen">
+      <div class="user-components">
+        <div class="user-components__column">
+          <img src="#" class="user-component__avatar--xl" />
+          <div class="user-componet__text">
+            <h4 class="user-component__title">Yui</h4>
+            <!--h6 class="user-component__subtitle">this text whatever</h6> -->
+          </div>
+        </div>
+        <div class="user-componets__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-components">
+          <div class="user-components__column">
+            <img
+              src="line stickers1 copy.jpeg"
+              class="user-component__avatar--sm"
+            />
+            <div class="user-componet__text">
+              <h4 class="user-component__title--not-bold">Channel</h4>
+            </div>
+          </div>
+          <div class="user-componets__column">
+            <span>2</span><i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fas fa-user-alt fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span>
+            <i class="far fa-comment fa-lg"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-search fa-lg"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <div class="ellipsis_notification"></div>
+            <i class="fas fa-ellipsis-h fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/231f35540a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap");
+@import"reset.css";
+@import "variables.css";
+/*components*/
+@import"components/statusbar.css";
+@import "components/screen-header.css";
+@import "components/nav.css";
+@import "components/user-components.css";
+/*screens*/
+@import "screens/login.css";
+@import "screens/friends.css";
+
+body {
+  color: #2e363e;
+  font-family: font-family: 'Barlow', sans-serif;
+  height:1000vh;
+}
+
+
+
+
