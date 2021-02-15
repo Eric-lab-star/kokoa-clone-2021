@@ -163,20 +163,3 @@
 .reply__column button:focus {
   outline: none;
 }
-
-.reply:focus-within .reply__column:first-child {
-  display: none;
-}
-
-.reply:focus-within .fa-smile-beam {
-  display: none;
-}
-
-.reply:focus-within {
-  transform: translateY(90px);
-}
-
-.reply:focus-within input {
-  transform: translateY(-80px) translateX(-5px);
-  width: 100%;
-}
