@@ -10,11 +10,39 @@
   background-color: #abc1d1;
 }
 
+@keyframes fade-in {
+  from {
+    transform: translateX(-80px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in2 {
+  from {
+    transform: translateX(80px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 .main-chat {
   margin-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.yui {
+  animation: fade-in 0.7s linear;
+}
+.eric {
+  animation: fade-in2 0.7s linear;
 }
 
 .chat__timestamp {
@@ -88,6 +116,7 @@
   padding: 5px 10px;
   align-items: center;
   box-sizing: border-box;
+  transition: all 0.5s linear;
 }
 
 .reply .reply__column:last-child {
@@ -125,6 +154,7 @@
   border-radius: 15px;
 }
 .reply__column input {
+  transition: all 0.2s linear;
 }
 .reply__column button i {
   opacity: 1;
@@ -132,4 +162,21 @@
 }
 .reply__column button:focus {
   outline: none;
+}
+
+.reply:focus-within .reply__column:first-child {
+  display: none;
+}
+
+.reply:focus-within .fa-smile-beam {
+  display: none;
+}
+
+.reply:focus-within {
+  transform: translateY(100px);
+}
+
+.reply:focus-within input {
+  transform: translateY(-80px) translateX(-5px);
+  width: 100%;
 }
