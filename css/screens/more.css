@@ -1,0 +1,27 @@
+.more-screen .icon-row {
+  margin-top: 35px;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  color: var(--gray);
+  margin-bottom: 30px;
+}
+
+.more-suggestions .icon-row .icon-row__icon:nth-child(1) {
+  color: var(--yellow);
+}
+.more-suggestions .icon-row .icon-row__icon:nth-child(2) {
+  color: rgb(5, 72, 173);
+}
+.more-suggestions .icon-row .icon-row__icon:nth-child(3) {
+  color: rgb(158, 7, 7);
+}
+.more-suggestions .icon-row .icon-row__icon:nth-child(4) {
+  color: rgb(6, 150, 155);
+}

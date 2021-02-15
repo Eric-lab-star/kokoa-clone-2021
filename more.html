@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friend</title>
+    <title>More</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -28,49 +28,61 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search"></i></span>
+        <span>
+          <a href="settings.html" class="fas fa-cog"></a>
+          <div class="cog_red-dot"></div>
+        </span>
         <span><i class="fas fa-music"></i></span>
-        <span><i class="fas fa-cog"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-    <main class="friends-screen">
+    <main class="main-screen more-screen">
       <div class="user-components">
         <div class="user-components__column">
           <img src="IMG_3699.JPG" class="user-component__avatar--xl" />
-          <div class="user-componet__text">
+          <div class="user-component__text">
             <h4 class="user-component__title">Yui</h4>
-            <!--h6 class="user-component__subtitle">this text whatever</h6> -->
+            <h6 class="user-component__subtitle">
+              happy BD! I love you<i class="fas fa-info-circle"></i>
+            </h6>
           </div>
         </div>
-        <div class="user-componets__column"></div>
+        <div class="user-componets__column">
+          <i class="fas fa-comment-alt fa-lg"></i>
+        </div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-calendar-alt"></i><span>Calendar</span>
         </div>
-        <div class="user-components">
-          <div class="user-components__column">
-            <img
-              src="line stickers1 copy.jpeg"
-              class="user-component__avatar--sm"
-            />
-            <div class="user-componet__text">
-              <h4 class="user-component__title--not-bold">Channel</h4>
-            </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-user-circle"></i><span>Accounts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-surprise"></i><span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-paint-roller"></i><span>Themes</span>
+        </div>
+      </div>
+
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fas fa-gamepad"></i><span>KoKoa Games</span>
           </div>
-          <div class="user-componets__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
-            </div>
+          <div class="icon-row__icon">
+            <i class="fab fa-facebook"></i><span>Facebook</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fab fa-amazon"></i><span>Amazon</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fab fa-google-wallet"></i><span>Google Wallet</span>
           </div>
         </div>
       </div>
@@ -80,7 +92,7 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fas fa-user-alt fa-lg"></i>
+            <i class="far fa-user fa-lg"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -102,7 +114,10 @@
         </li>
       </ul>
     </nav>
-    <div id="splash-screen"><i class="fas fa-comment fa-lg"></i></div>
+
+    <div id="no-mobile">
+      <span>your screen is too big</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/231f35540a.js"
