@@ -173,7 +173,7 @@
 }
 
 .reply:focus-within {
-  transform: translateY(80px);
+  transform: translateY(90px);
 }
 
 .reply:focus-within input {
