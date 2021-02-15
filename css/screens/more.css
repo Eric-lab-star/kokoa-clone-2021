@@ -13,15 +13,15 @@
   margin-bottom: 30px;
 }
 
-.more-suggestions .icon-row .icon-row__icon:nth-child(1) {
+.more-suggestions .icon-row a:nth-child(1) {
   color: var(--yellow);
 }
-.more-suggestions .icon-row .icon-row__icon:nth-child(2) {
+.more-suggestions .icon-row a:nth-child(2) {
   color: rgb(5, 72, 173);
 }
-.more-suggestions .icon-row .icon-row__icon:nth-child(3) {
+.more-suggestions .icon-row a:nth-child(3) {
   color: rgb(158, 7, 7);
 }
-.more-suggestions .icon-row .icon-row__icon:nth-child(4) {
+.more-suggestions .icon-row a:nth-child(4) {
   color: rgb(6, 150, 155);
 }

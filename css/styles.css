@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap");
-@import"reset.css";
+@import "reset.css";
 @import "variables.css";
 /*components*/
-@import"components/statusbar.css";
+@import "components/statusbar.css";
 @import "components/screen-header.css";
 @import "components/nav.css";
 @import "components/user-components.css";
@@ -19,13 +19,10 @@
 @import "screens/chat.css";
 body {
   color: #2e363e;
-  font-family: font-family: 'Barlow', sans-serif;
-  height:100vh;
+  font-family: "Barlow", sans-serif;
+  height: 100vh;
 }
 
 .main-screen {
-padding: 0px var(--horizontal-space);
+  padding: 0px var(--horizontal-space);
 }
-
-
-
